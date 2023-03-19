@@ -233,7 +233,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
             }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.SHORTEST), dis -> {
                 IBeeMutationCustom tMutation = dis.registerMutation(APATITE, ASH, 12);
                 tMutation.restrictTemperature(HOT);
-                tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockgem2"), 8);
+                tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockgem2"), 8);
             }),
     // Tea bee, Humidity: normal, Parents: Ash and Fertilizer, Mutationrate: 10%, combrate: 10%
     TEA(GT_BranchDefinition.ORGANIC, "Tea", false, new Color(0x65D13A), new Color(0x9a9679), beeSpecies -> {
@@ -254,7 +254,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
         beeSpecies.setHasEffect();
     }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.SHORTEST), dis -> {
         IBeeMutationCustom tMutation = dis.registerMutation(PEAT, getSpecies(MAGICBEES, "Silicon"), 15);
-        tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockcasings5"), 0);
+        tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockcasings5"), 0);
     }),
 
     // gems
@@ -541,7 +541,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
                 beeSpecies.setHasEffect();
             }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.LONGEST), dis -> {
                 IBeeMutationCustom tMutation = dis.registerMutation(GLOWSTONE, GOLD, 5);
-                tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockcasings"), 15);
+                tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockcasings"), 15);
             }),
     CHROME(GT_BranchDefinition.RAREMETAL, "Chrome", true, new Color(0xEBA1EB), new Color(0xF2C3F2), beeSpecies -> {
         beeSpecies.addProduct(GT_Bees.combs.getStackForType(CombType.SLAG), 0.30f);
@@ -2438,7 +2438,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
                 beeSpecies.setHasEffect();
             }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.SHORTEST), dis -> {
                 IBeeMutationCustom tMutation = dis.registerMutation(CHAOS, FIRE, 15);
-                tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockgem3"), 3);
+                tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockgem3"), 3);
             }),
     ENDSHARD(GT_BranchDefinition.INFUSEDSHARD, "Endshard", false, new Color(0x2E2E41), new Color(0x232129),
             beeSpecies -> {
@@ -2449,7 +2449,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
             }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.SHORTEST), dis -> {
                 IBeeMutationCustom tMutation = dis.registerMutation(NETHERSHARD, ENDDUST, 15);
                 tMutation.restrictTemperature(ICY);
-                tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockgem1"), 7);
+                tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockgem1"), 7);
             }),
     // Organic branch 2.0
     UNKNOWNWATER(GT_BranchDefinition.ORGANIC, "UnknownWater", false, new Color(0x4333A5), new Color(0x36ABFF),
@@ -2469,7 +2469,7 @@ public enum GT_BeeDefinition implements IBeeDefinition {
                 beeSpecies.setHasEffect();
             }, template -> AlleleHelper.instance.set(template, LIFESPAN, Lifespan.SHORTEST), dis -> {
                 IBeeMutationCustom tMutation = dis.registerMutation(INFINITYCATALYST, NAQUADRIA, 5);
-                tMutation.requireResource(GameRegistry.findBlock("gregtech", "gt.blockmachines"), 4684);
+                tMutation.requireResource(GameRegistry.findBlock("gregtech5", "gt.blockmachines"), 4684);
                 tMutation.addMutationCondition(new GT_Bees.DimensionMutationCondition(100, "Deep Dark")); // Deep Dark
                                                                                                           // dim
             });

@@ -100,8 +100,8 @@ import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 
 @Mod(
-        modid = "gregtech",
-        name = "GregTech",
+        modid = "gregtech5",
+        name = "GregTech 5",
         version = "MC1710",
         guiFactory = "gregtech.client.GT_GuiFactory",
         dependencies = " required-after:IC2;" + " required-after:structurelib;"
@@ -155,10 +155,10 @@ public class GT_Mod implements IGT_Mod {
     @Deprecated
     public static final int REQUIRED_IC2 = 624;
 
-    @Mod.Instance("gregtech")
+    @Mod.Instance("gregtech5")
     public static GT_Mod instance;
 
-    @SidedProxy(modId = "gregtech", clientSide = "gregtech.common.GT_Client", serverSide = "gregtech.common.GT_Server")
+    @SidedProxy(modId = "gregtech5", clientSide = "gregtech.common.GT_Client", serverSide = "gregtech.common.GT_Server")
     public static GT_Proxy gregtechproxy;
 
     public static int MAX_IC2 = 2147483647;

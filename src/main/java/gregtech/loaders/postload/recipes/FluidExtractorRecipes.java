@@ -516,7 +516,7 @@ public class FluidExtractorRecipes implements Runnable {
         if (isBartWorksLoaded) {
             // xenon
             GT_Values.RA.addFluidExtractionRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 134),
+                    getModItem("gregtech5", "gt.comb", 1L, 134),
                     null,
                     getFluidStack("xenon", 250),
                     100 * 100,
@@ -524,7 +524,7 @@ public class FluidExtractorRecipes implements Runnable {
                     8192);
             // neon
             GT_Values.RA.addFluidExtractionRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 135),
+                    getModItem("gregtech5", "gt.comb", 1L, 135),
                     null,
                     getFluidStack("neon", 250),
                     100 * 100,
@@ -532,7 +532,7 @@ public class FluidExtractorRecipes implements Runnable {
                     8192);
             // krpton
             GT_Values.RA.addFluidExtractionRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 136),
+                    getModItem("gregtech5", "gt.comb", 1L, 136),
                     null,
                     getFluidStack("krypton", 250),
                     100 * 100,

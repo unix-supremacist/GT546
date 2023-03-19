@@ -55,7 +55,7 @@ public class GT_PreLoad {
                 short tModList_sS = (short) tModList.size();
                 for (short i = 0; i < tModList_sS; i = (short) (i + 1)) {
                     ModContainer tMod = tModList.get(i);
-                    if (tMod.getModId().equalsIgnoreCase("gregtech")) {
+                    if (tMod.getModId().equalsIgnoreCase("gregtech5")) {
                         tGregTech = tMod;
                     } else {
                         tNewModsList.add(tMod);
@@ -89,32 +89,32 @@ public class GT_PreLoad {
     }
 
     public static Configuration getConfiguration(File configDir) {
-        File tFile = new File(new File(configDir, "GregTech"), "GregTech.cfg");
+        File tFile = new File(new File(configDir, "GregTech 5"), "GregTech.cfg");
         Configuration tMainConfig = new Configuration(tFile);
         tMainConfig.load();
-        tFile = new File(new File(configDir, "GregTech"), "IDs.cfg");
+        tFile = new File(new File(configDir, "GregTech 5"), "IDs.cfg");
         GT_Config.sConfigFileIDs = new Configuration(tFile);
         GT_Config.sConfigFileIDs.load();
         GT_Config.sConfigFileIDs.save();
         GregTech_API.sRecipeFile = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "Recipes.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "Recipes.cfg")));
         GregTech_API.sMachineFile = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "MachineStats.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "MachineStats.cfg")));
         GregTech_API.sWorldgenFile = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "WorldGeneration.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "WorldGeneration.cfg")));
         GregTech_API.sMaterialProperties = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "MaterialProperties.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "MaterialProperties.cfg")));
         GregTech_API.sMaterialComponents = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "MaterialComponents.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "MaterialComponents.cfg")));
         GregTech_API.sUnification = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "Unification.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "Unification.cfg")));
         GregTech_API.sSpecialFile = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "Other.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "Other.cfg")));
         GregTech_API.sOPStuff = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "OverpoweredStuff.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "OverpoweredStuff.cfg")));
 
         GregTech_API.sClientDataFile = new GT_Config(
-                new Configuration(new File(new File(configDir, "GregTech"), "Client.cfg")));
+                new Configuration(new File(new File(configDir, "GregTech 5"), "Client.cfg")));
         return tMainConfig;
     }
 

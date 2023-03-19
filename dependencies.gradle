@@ -32,7 +32,7 @@ dependencies {
     implementation("com.github.GTNewHorizons:Eternal-Singularity:1.0.10:dev")
 
     api("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
-
+    runtimeOnly ("com.gregoriust.gregtech:gregtech_1.7.10:6.15.10:dev") { transitive = false }
     compileOnly("com.github.GTNewHorizons:EnderCore:0.2.12:dev") { transitive = false }
     compileOnly("com.github.GTNewHorizons:ForestryMC:4.5.6:dev") { transitive = false }
     compileOnly("com.github.GTNewHorizons:gendustry:1.6.5.5-GTNH:dev") { transitive = false }

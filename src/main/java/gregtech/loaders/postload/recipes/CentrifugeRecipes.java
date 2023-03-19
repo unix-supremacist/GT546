@@ -1043,7 +1043,7 @@ public class CentrifugeRecipes implements Runnable {
         if (isThaumcraftLoaded) {
             // air
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 144),
+                    getModItem("gregtech5", "gt.comb", 1L, 144),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1058,7 +1058,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // fire
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 146),
+                    getModItem("gregtech5", "gt.comb", 1L, 146),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1073,7 +1073,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // aqua
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 147),
+                    getModItem("gregtech5", "gt.comb", 1L, 147),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1088,7 +1088,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // terra
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 145),
+                    getModItem("gregtech5", "gt.comb", 1L, 145),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1103,7 +1103,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // ordo
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 148),
+                    getModItem("gregtech5", "gt.comb", 1L, 148),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1118,7 +1118,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // perditio
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 149),
+                    getModItem("gregtech5", "gt.comb", 1L, 149),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1133,7 +1133,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // Nethershard
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 152),
+                    getModItem("gregtech5", "gt.comb", 1L, 152),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1148,7 +1148,7 @@ public class CentrifugeRecipes implements Runnable {
                     512);
             // Endshard
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 153),
+                    getModItem("gregtech5", "gt.comb", 1L, 153),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1166,7 +1166,7 @@ public class CentrifugeRecipes implements Runnable {
         if (isExtraUtilitiesLoaded) {
             // Caelestis red
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 154),
+                    getModItem("gregtech5", "gt.comb", 1L, 154),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1181,7 +1181,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // Caelestis green
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 155),
+                    getModItem("gregtech5", "gt.comb", 1L, 155),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,
@@ -1196,7 +1196,7 @@ public class CentrifugeRecipes implements Runnable {
                     12);
             // Caelestis blue
             GT_Values.RA.addCentrifugeRecipe(
-                    getModItem("gregtech", "gt.comb", 1L, 156),
+                    getModItem("gregtech5", "gt.comb", 1L, 156),
                     GT_Utility.getIntegratedCircuit(1),
                     GT_Values.NF,
                     null,

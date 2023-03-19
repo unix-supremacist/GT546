@@ -2487,8 +2487,8 @@ public class AssemblerRecipes implements Runnable {
                         : GT_OreDictUnificator.get(OrePrefixes.cell, Materials.Empty, 1L),
                 isIronTankLoaded ? getModItem("irontank", "obsidianTank", 1)
                         : GT_OreDictUnificator.get(OrePrefixes.cell, Materials.Empty, 1L),
-                getModItem("gregtech", "gt.blockmachines", 1, 130),
-                getModItem("gregtech", "gt.blockmachines", 1, 131) };
+                getModItem("gregtech5", "gt.blockmachines", 1, 130),
+                getModItem("gregtech5", "gt.blockmachines", 1, 131) };
 
         ItemStack[][] aInputs = new ItemStack[10][3];
         ItemStack[][] aInputs2 = new ItemStack[10][3];

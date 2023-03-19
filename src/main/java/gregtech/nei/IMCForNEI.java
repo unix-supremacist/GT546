@@ -41,7 +41,7 @@ public class IMCForNEI {
         NBTTagCompound aNBT = new NBTTagCompound();
         aNBT.setString("handler", aName);
         aNBT.setString("modName", "GregTech");
-        aNBT.setString("modId", "gregtech");
+        aNBT.setString("modId", "gregtech5");
         aNBT.setBoolean("modRequired", true);
         aNBT.setString("itemName", aBlock);
         aNBT.setInteger("handlerHeight", 135);

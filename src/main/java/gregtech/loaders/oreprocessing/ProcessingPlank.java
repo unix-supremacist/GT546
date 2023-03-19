@@ -127,7 +127,7 @@ public class ProcessingPlank implements gregtech.api.interfaces.IOreRecipeRegist
                     if ((tStack == null) && (i >= 16)) break;
                 }
             } else {
-                ItemStack tOutput = !aModName.equalsIgnoreCase("thaumcraft")
+                ItemStack tOutput = !"thaumcraft".equalsIgnoreCase(aModName)
                         ? GT_ModHandler.getRecipeOutput(aStack, aStack, aStack)
                         : GT_ModHandler.getRecipeOutputNoOreDict(aStack, aStack, aStack);
                 if ((tOutput != null) && (tOutput.stackSize >= 3)) {
