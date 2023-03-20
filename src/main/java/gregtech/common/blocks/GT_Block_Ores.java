@@ -15,7 +15,6 @@ import net.minecraftforge.common.util.ForgeDirection;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import gregtech.GT_Mod;
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.interfaces.ITexture;
@@ -98,7 +97,7 @@ public class GT_Block_Ores extends GT_Block_Ores_Abstract {
 
     @Override
     public Block getDroppedBlock() {
-        return GregTech_API.sBlockOres1;
+        return null;
     }
 
     @Override

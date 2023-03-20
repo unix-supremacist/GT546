@@ -21,7 +21,6 @@ import com.gtnewhorizons.modularui.common.widget.DrawableWidget;
 import com.gtnewhorizons.modularui.common.widget.FakeSyncWidget;
 import com.gtnewhorizons.modularui.common.widget.TextWidget;
 
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.ConfigCategories;
 import gregtech.api.enums.Materials;
 import gregtech.api.gui.modularui.GT_UIInfos;
@@ -168,10 +167,12 @@ public class GT_MetaTileEntity_MicrowaveEnergyTransmitter extends GT_MetaTileEnt
         for (byte i = -5; i <= 5; i = (byte) (i + 1)) {
             for (byte j = -5; j <= 5; j = (byte) (j + 1)) {
                 for (byte k = -5; k <= 5; k = (byte) (k + 1)) {
-                    if (getBaseMetaTileEntity().getBlockOffset(i, j, k) == GregTech_API.sBlockMetal5
-                            && getBaseMetaTileEntity().getMetaIDOffset(i, j, k) == 8) { // require osmiridium block
-                        return true;
-                    }
+                    return true;
+                    /*
+                     * if (getBaseMetaTileEntity().getBlockOffset(i, j, k) == GregTech_API.sBlockMetal5 &&
+                     * getBaseMetaTileEntity().getMetaIDOffset(i, j, k) == 8) { // require osmiridium block return true;
+                     * }
+                     */
                 }
             }
         }

@@ -961,7 +961,6 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         setDirectSmelting();
         setOthers();
         setMultipliers();
-        setEnchantments();
         setHeatDamage();
         setByProducts();
         setColors();
@@ -1050,7 +1049,7 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         mDefaultLocalName = aDefaultLocalName;
         mName = aName;
         MATERIALS_MAP.put(mName, this);
-        mCustomOre = aCustomOre;
+        mCustomOre = false;
         mCustomID = aCustomID;
         mConfigSection = aConfigSection;
         mUnificatable = aUnificatable;
@@ -1520,45 +1519,6 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         HSSE.setEnchantmentForTools(Enchantment.sharpness, 5);
         HSSG.setEnchantmentForTools(Enchantment.sharpness, 4);
         HSSS.setEnchantmentForTools(Enchantment.sharpness, 5);
-    }
-
-    /**
-     * DO NOT ADD MORE THAN 1 TOOL AND ARMOR ENCHANTMENT PER MATERIAL! It will get overwritten!
-     */
-    private static void setEnchantments() {
-        setToolEnchantments();
-        setArmorEnchantments();
-    }
-
-    private static void setToolEnchantments() {
-        setEnchantmentKnockbackTools();
-        setEnchantmentFortuneTools();
-        setEnchantmentFireAspectTools();
-        setEnchantmentSilkTouchTools();
-        setEnchantmentSmiteTools();
-        setEnchantmentBaneOfArthropodsTools();
-        setEnchantmentSharpnessTools();
-    }
-
-    private static void setArmorEnchantments() {
-        InfusedAir.setEnchantmentForArmors(Enchantment.respiration, 3);
-
-        InfusedFire.setEnchantmentForArmors(Enchantment.featherFalling, 4);
-
-        Steeleaf.setEnchantmentForArmors(Enchantment.protection, 2);
-        Knightmetal.setEnchantmentForArmors(Enchantment.protection, 1);
-        InfusedEarth.setEnchantmentForArmors(Enchantment.protection, 4);
-
-        InfusedEntropy.setEnchantmentForArmors(Enchantment.thorns, 3);
-
-        InfusedWater.setEnchantmentForArmors(Enchantment.aquaAffinity, 1);
-        IronWood.setEnchantmentForArmors(Enchantment.aquaAffinity, 1);
-
-        InfusedOrder.setEnchantmentForArmors(Enchantment.projectileProtection, 4);
-
-        InfusedDull.setEnchantmentForArmors(Enchantment.blastProtection, 4);
-
-        InfusedVis.setEnchantmentForArmors(Enchantment.protection, 4);
     }
 
     private static void setMaceratingInto() {
@@ -2571,7 +2531,6 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
                 addTemperatureValues(aMaterial, aConfigPath);
                 addDensityValues(aMaterial, aConfigPath);
                 addColorValues(aMaterial, aConfigPath);
-                addToolValues(aMaterial, aConfigPath);
                 addEnchantmentValues(aMaterial, aConfigPath);
                 addProcessingIntoValues(aMaterial, aConfigPath);
                 addMultiplierValues(aMaterial, aConfigPath);

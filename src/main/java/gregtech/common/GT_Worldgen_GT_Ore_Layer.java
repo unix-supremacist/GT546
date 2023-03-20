@@ -194,9 +194,7 @@ public class GT_Worldgen_GT_Ore_Layer extends GT_Worldgen {
         if (wX >= eX) { // No overlap between orevein and this chunk exists in X
             if (tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.stone)
                     || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.netherrack)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.end_stone)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, GregTech_API.sBlockGranites)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, GregTech_API.sBlockStones)) {
+                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.end_stone)) {
                 // Didn't reach, but could have placed. Save orevein for future use.
                 return NO_OVERLAP;
             } else {
@@ -213,9 +211,7 @@ public class GT_Worldgen_GT_Ore_Layer extends GT_Worldgen {
         if (nZ >= sZ) { // No overlap between orevein and this chunk exists in Z
             if (tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.stone)
                     || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.netherrack)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.end_stone)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, GregTech_API.sBlockGranites)
-                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, GregTech_API.sBlockStones)) {
+                    || tBlock.isReplaceableOreGen(aWorld, aChunkX + 7, tMinY, aChunkZ + 9, Blocks.end_stone)) {
                 // Didn't reach, but could have placed. Save orevein for future use.
                 return NO_OVERLAP;
             } else {

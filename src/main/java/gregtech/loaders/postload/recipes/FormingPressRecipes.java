@@ -89,13 +89,6 @@ public class FormingPressRecipes implements Runnable {
                 getModItem(GT_MachineRecipeLoader.aTextAE, GT_MachineRecipeLoader.aTextAEMM, 1L, 20),
                 200,
                 16);
-
-        GT_Values.RA.addFormingPressRecipe(
-                ItemList.Food_Dough_Sugar.get(4L),
-                ItemList.Shape_Mold_Cylinder.get(0L),
-                ItemList.Food_Raw_Cake.get(1L),
-                384,
-                4);
         GT_Values.RA.addFormingPressRecipe(
                 new ItemStack(Blocks.glass, 1, 32767),
                 ItemList.Shape_Mold_Arrow.get(0L),

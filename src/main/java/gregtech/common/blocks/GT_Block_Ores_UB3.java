@@ -6,7 +6,6 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.IIcon;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.Materials;
 import gregtech.api.enums.OrePrefixes;
 import gregtech.api.interfaces.ITexture;
@@ -45,7 +44,7 @@ public class GT_Block_Ores_UB3 extends GT_Block_Ores_Abstract {
 
     @Override
     public Block getDroppedBlock() {
-        return GregTech_API.sBlockOresUb3;
+        return null;
     }
 
     @Override

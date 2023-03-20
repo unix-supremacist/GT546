@@ -130,13 +130,6 @@ public class GT_ItemIterator implements Runnable {
                 100,
                 1);
         GT_Values.RA.addCannerRecipe(
-                ItemList.Food_Poisonous_Potato.get(2L),
-                ItemList.IC2_Food_Can_Empty.get(1L),
-                ItemList.IC2_Food_Can_Spoiled.get(1L),
-                null,
-                100,
-                1);
-        GT_Values.RA.addCannerRecipe(
                 new ItemStack(Items.cake, 1, 32767),
                 ItemList.IC2_Food_Can_Empty.get(12L),
                 ItemList.IC2_Food_Can_Filled.get(12L),

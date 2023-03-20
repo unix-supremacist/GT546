@@ -7,7 +7,6 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
@@ -16,15 +15,7 @@ public class ChemicalBathRecipes implements Runnable {
 
     @Override
     public void run() {
-        GT_Values.RA.addChemicalBathRecipe(
-                ItemList.Food_Raw_Fries.get(1L),
-                Materials.FryingOilHot.getFluid(10L),
-                ItemList.Food_Fries.get(1L),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                16,
-                4);
+
         GT_Values.RA.addChemicalBathRecipe(
                 GT_ModHandler.getIC2Item("dynamite", 1L),
                 Materials.Glue.getFluid(10L),
@@ -413,151 +404,6 @@ public class ChemicalBathRecipes implements Runnable {
                 null,
                 400,
                 2);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 8),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 0),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 9),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 1),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 10),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 2),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 11),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 3),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 12),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 4),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 13),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 5),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 14),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 6),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 15),
-                Materials.Water.getFluid(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 7),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 8),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 0),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 9),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 1),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 10),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 2),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 11),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 3),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 12),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 4),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 13),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 5),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 14),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 6),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-        GT_Values.RA.addChemicalBathRecipe(
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 15),
-                GT_ModHandler.getDistilledWater(250L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 7),
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                200,
-                4);
-
         GT_Values.RA.addChemicalBathRecipe(
                 GT_OreDictUnificator.get(OrePrefixes.frameGt, Materials.Bronze, 1L),
                 Materials.Concrete.getMolten(144L),

@@ -10,7 +10,6 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.*;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
@@ -85,12 +84,6 @@ public class FluidSolidifierRecipes implements Runnable {
                 16);
         GT_Values.RA.addFluidSolidifierRecipe(
                 ItemList.Shape_Mold_Block.get(0L),
-                Materials.Concrete.getMolten(144L),
-                new ItemStack(GregTech_API.sBlockConcretes, 1, 8),
-                12,
-                4);
-        GT_Values.RA.addFluidSolidifierRecipe(
-                ItemList.Shape_Mold_Block.get(0L),
                 Materials.Glowstone.getMolten(576L),
                 new ItemStack(Blocks.glowstone, 1, 0),
                 12,
@@ -113,18 +106,6 @@ public class FluidSolidifierRecipes implements Runnable {
                 ItemList.Bottle_Empty.get(1L),
                 12,
                 4);
-        GT_Values.RA.addFluidSolidifierRecipe(
-                ItemList.Shape_Mold_Cylinder.get(0L),
-                Materials.Milk.getFluid(250L),
-                ItemList.Food_Cheese.get(1L),
-                1024,
-                4);
-        GT_Values.RA.addFluidSolidifierRecipe(
-                ItemList.Shape_Mold_Cylinder.get(0L),
-                Materials.Cheese.getMolten(144L),
-                ItemList.Food_Cheese.get(1L),
-                64,
-                8);
         GT_Values.RA.addFluidSolidifierRecipe(
                 ItemList.Shape_Mold_Anvil.get(0L),
                 Materials.Iron.getMolten(4464L),

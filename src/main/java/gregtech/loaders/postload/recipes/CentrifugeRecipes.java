@@ -362,48 +362,6 @@ public class CentrifugeRecipes implements Runnable {
                 4608,
                 5);
         GT_Values.RA.addCentrifugeRecipe(
-                ItemList.Food_Raw_Potato.get(16L),
-                GT_Utility.getIntegratedCircuit(1),
-                GT_Values.NF,
-                Materials.Methane.getGas(576L),
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                4608,
-                5);
-        GT_Values.RA.addCentrifugeRecipe(
-                ItemList.Food_Poisonous_Potato.get(12L),
-                GT_Utility.getIntegratedCircuit(1),
-                GT_Values.NF,
-                Materials.Methane.getGas(576L),
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                4608,
-                5);
-        GT_Values.RA.addCentrifugeRecipe(
-                ItemList.Food_Baked_Potato.get(24L),
-                GT_Utility.getIntegratedCircuit(1),
-                GT_Values.NF,
-                Materials.Methane.getGas(576L),
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                null,
-                4608,
-                5);
-        GT_Values.RA.addCentrifugeRecipe(
                 new ItemStack(Items.cookie, 64, 0),
                 GT_Utility.getIntegratedCircuit(1),
                 GT_Values.NF,

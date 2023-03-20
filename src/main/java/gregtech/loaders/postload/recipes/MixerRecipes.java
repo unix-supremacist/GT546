@@ -464,37 +464,6 @@ public class MixerRecipes implements Runnable {
                 GT_OreDictUnificator.getDust(Materials.BorosilicateGlass, 8L * OrePrefixes.dust.mMaterialAmount),
                 (int) (200L * OrePrefixes.dust.mMaterialAmount / 3628800L),
                 8);
-
-        GT_Values.RA.addMixerRecipe(
-                new ItemStack(Items.rotten_flesh, 1, 0),
-                new ItemStack(Items.fermented_spider_eye, 1, 0),
-                ItemList.IC2_Scrap.get(1L),
-                GT_OreDictUnificator.get(OrePrefixes.dust, Materials.MeatRaw, 1L),
-                getFluidStack("potion.purpledrink", 750),
-                getFluidStack("sludge", 1000),
-                ItemList.Food_Chum.get(4L),
-                128,
-                24);
-        GT_Values.RA.addMixerRecipe(
-                GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Wheat, 1L),
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NI,
-                Materials.Water.getFluid(1000L),
-                GT_Values.NF,
-                ItemList.Food_Dough.get(2L),
-                32,
-                8);
-        GT_Values.RA.addMixerRecipe(
-                GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Chili, 1L),
-                ItemList.Food_PotatoChips.get(1L),
-                GT_Values.NI,
-                GT_Values.NI,
-                GT_Values.NF,
-                GT_Values.NF,
-                ItemList.Food_ChiliChips.get(1L),
-                32,
-                8);
         GT_Values.RA.addMixerRecipe(
                 GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Redstone, 5L),
                 GT_OreDictUnificator.get(OrePrefixes.dustTiny, Materials.Ruby, 4L),

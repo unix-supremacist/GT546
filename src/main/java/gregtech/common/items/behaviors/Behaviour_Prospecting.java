@@ -65,13 +65,7 @@ public class Behaviour_Prospecting extends Behaviour_None {
 
         if (aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, Blocks.stone)
                 || aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, Blocks.netherrack)
-                || aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, Blocks.end_stone)
-                || aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, GregTech_API.sBlockStones)
-                || aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, GregTech_API.sBlockGranites)
-                || aBlock == GregTech_API.sBlockOresUb1
-                || aBlock == GregTech_API.sBlockOresUb2
-                || aBlock == GregTech_API.sBlockOresUb3
-                || aBlock == GregTech_API.sBlockOres1) {
+                || aBlock.isReplaceableOreGen(aWorld, aX, aY, aZ, Blocks.end_stone)) {
             if (GT_ModHandler.damageOrDechargeItem(aStack, this.mVanillaCosts, this.mEUCosts, aPlayer)) {
                 GT_Utility.sendSoundToPlayers(aWorld, SoundResource.RANDOM_ANVIL_USE, 1.0F, -1.0F, aX, aY, aZ);
                 int tMetaID;

@@ -53,18 +53,6 @@ public class ProcessingCrop implements gregtech.api.interfaces.IOreRecipeRegistr
                         GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Coffee, 1L));
                 break;
             case "cropPotato":
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Flat.get(0L),
-                        ItemList.Food_Raw_PotatoChips.get(1L),
-                        64,
-                        4);
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Stripes.get(0L),
-                        ItemList.Food_Raw_Fries.get(1L),
-                        64,
-                        4);
                 GT_Values.RA.addBrewingRecipe(
                         aStack,
                         FluidRegistry.WATER,
@@ -77,12 +65,6 @@ public class ProcessingCrop implements gregtech.api.interfaces.IOreRecipeRegistr
                         true);
                 break;
             case "cropLemon":
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Flat.get(0L),
-                        ItemList.Food_Sliced_Lemon.get(4L),
-                        64,
-                        4);
                 GT_Values.RA.addBrewingRecipe(
                         aStack,
                         FluidRegistry.WATER,
@@ -100,28 +82,10 @@ public class ProcessingCrop implements gregtech.api.interfaces.IOreRecipeRegistr
                         true);
                 break;
             case "cropTomato":
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Flat.get(0L),
-                        ItemList.Food_Sliced_Tomato.get(4L),
-                        64,
-                        4);
                 break;
             case "cropCucumber":
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Flat.get(0L),
-                        ItemList.Food_Sliced_Cucumber.get(4L),
-                        64,
-                        4);
                 break;
             case "cropOnion":
-                GT_Values.RA.addSlicerRecipe(
-                        aStack,
-                        ItemList.Shape_Slicer_Flat.get(0L),
-                        ItemList.Food_Sliced_Onion.get(4L),
-                        64,
-                        4);
                 break;
         }
     }

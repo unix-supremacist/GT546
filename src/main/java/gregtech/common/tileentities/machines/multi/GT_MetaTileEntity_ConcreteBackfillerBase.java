@@ -9,7 +9,6 @@ import net.minecraft.item.ItemStack;
 
 import com.google.common.collect.ImmutableList;
 
-import gregtech.api.GregTech_API;
 import gregtech.api.enums.Materials;
 import gregtech.api.interfaces.IHatchElement;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
@@ -106,15 +105,11 @@ public abstract class GT_MetaTileEntity_ConcreteBackfillerBase extends GT_MetaTi
         if (!aBaseTile.getBlock(aX, aY, aZ).isAir(aBaseTile.getWorld(), aX, aY, aZ)
                 || aBaseTile.getBlock(aX, aY, aZ).getMaterial().isSolid())
             return false;
-        if (!GT_Utility
-                .setBlockByFakePlayer(getFakePlayer(aBaseTile), aX, aY, aZ, GregTech_API.sBlockConcretes, 8, true))
-            return false;
         return true;
     }
 
     private boolean tryRefillBlock(int aX, int aY, int aZ) {
         if (!tryConsumeFluid()) return false;
-        getBaseMetaTileEntity().getWorld().setBlock(aX, aY, aZ, GregTech_API.sBlockConcretes, 8, 3);
         return true;
     }
 
