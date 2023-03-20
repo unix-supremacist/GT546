@@ -2342,12 +2342,10 @@ public class GT_CraftingRecipeLoader implements Runnable {
         NBTTagCompound nbtFlask = new NBTTagCompound();
         nbtFlask.setInteger("Capacity", 1000);
         flask.setTagCompound(nbtFlask);
-        GT_Values.RA.addFluidSolidifierRecipe(
-                ItemList.Shape_Mold_Ball.get(0),
-                new FluidStack(FluidRegistry.getFluid("molten.borosilicateglass"), 144),
-                flask,
-                44,
-                24);
+        /*
+         * GT_Values.RA.addFluidSolidifierRecipe( ItemList.Shape_Mold_Ball.get(0), new
+         * FluidStack(FluidRegistry.getFluid("molten.borosilicateglass"), 144), flask, 44, 24);
+         */
 
         if (Loader.isModLoaded("bartworks")) {
             GT_ModHandler.addCraftingRecipe(

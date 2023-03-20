@@ -590,39 +590,6 @@ public class GT_Mod implements IGT_Mod {
         ic2.api.recipe.Recipes.matterAmplifier.getRecipes().values().stream().map(t -> t.items)
                 .forEach(tStacks::addAll);
         ic2.api.recipe.Recipes.oreWashing.getRecipes().values().stream().map(t -> t.items).forEach(tStacks::addAll);
-
-        GT_Log.out.println("GT_Mod: Dungeon Loot");
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("dungeonChest").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("bonusChest").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("villageBlacksmith").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("strongholdCrossing").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("strongholdLibrary").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("strongholdCorridor").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("pyramidJungleDispenser")
-                .getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("pyramidJungleChest").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("pyramidDesertyChest").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
-        for (WeightedRandomChestContent tContent : ChestGenHooks.getInfo("mineshaftCorridor").getItems(new XSTR())) {
-            tStacks.add(tContent.theItemId);
-        }
         GT_Log.out.println("GT_Mod: Smelting");
 
         // noinspection unchecked// Deal with legacy Minecraft raw types

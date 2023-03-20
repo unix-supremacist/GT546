@@ -479,6 +479,7 @@ public class GT_RecipeAdder implements IGT_RecipeAdder {
 
     @Override
     public void addDefaultPolymerizationRecipes(Fluid aBasicMaterial, ItemStack aBasicMaterialCell, Fluid aPolymer) {
+        if (aBasicMaterial == null || aPolymer == null) return;
         // Oxygen/Titaniumtetrafluoride -> +50% Output each
         addChemicalRecipe(
                 ItemList.Cell_Air.get(1, new Object[0]),

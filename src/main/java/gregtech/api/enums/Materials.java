@@ -1189,7 +1189,7 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         mRGBa[1] = mMoltenRGBa[1] = (short) aG;
         mRGBa[2] = mMoltenRGBa[2] = (short) aB;
         mRGBa[3] = mMoltenRGBa[3] = (short) aA;
-        mTypes = aTypes;
+        mTypes = 0;
         if (mColor != null) add(SubTag.HAS_COLOR);
         if (mTransparent) add(SubTag.TRANSPARENT);
         if ((mTypes & 2) != 0) add(SubTag.SMELTING_TO_FLUID);
