@@ -1,9 +1,6 @@
 package gregtech.common.blocks;
 
-import static gregtech.api.enums.Textures.BlockIcons.BASALT_STONE;
-import static gregtech.api.enums.Textures.BlockIcons.GRANITE_BLACK_STONE;
-import static gregtech.api.enums.Textures.BlockIcons.GRANITE_RED_STONE;
-import static gregtech.api.enums.Textures.BlockIcons.MARBLE_STONE;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import java.util.Arrays;
 

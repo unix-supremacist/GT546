@@ -1,25 +1,8 @@
 package gregtech.common.render;
 
-import static gregtech.api.enums.GT_Values.ALL_VALID_SIDES;
-import static gregtech.api.enums.GT_Values.OFFX;
-import static gregtech.api.enums.GT_Values.OFFY;
-import static gregtech.api.enums.GT_Values.OFFZ;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_DOWN;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_EAST;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_NORTH;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_SOUTH;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_UP;
-import static gregtech.api.interfaces.metatileentity.IConnectable.CONNECTED_WEST;
-import static gregtech.api.interfaces.metatileentity.IConnectable.HAS_FRESHFOAM;
-import static gregtech.api.interfaces.metatileentity.IConnectable.HAS_HARDENEDFOAM;
-import static gregtech.api.interfaces.metatileentity.IConnectable.NO_CONNECTION;
-import static net.minecraftforge.common.util.ForgeDirection.DOWN;
-import static net.minecraftforge.common.util.ForgeDirection.EAST;
-import static net.minecraftforge.common.util.ForgeDirection.NORTH;
-import static net.minecraftforge.common.util.ForgeDirection.SOUTH;
-import static net.minecraftforge.common.util.ForgeDirection.UP;
-import static net.minecraftforge.common.util.ForgeDirection.VALID_DIRECTIONS;
-import static net.minecraftforge.common.util.ForgeDirection.WEST;
+import static gregtech.api.enums.GT_Values.*;
+import static gregtech.api.interfaces.metatileentity.IConnectable.*;
+import static net.minecraftforge.common.util.ForgeDirection.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;

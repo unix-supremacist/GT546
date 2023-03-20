@@ -1,6 +1,6 @@
 package gregtech.api.gui.widgets;
 
-import java.awt.Rectangle;
+import java.awt.*;
 import java.util.List;
 
 import net.minecraft.client.Minecraft;
@@ -101,7 +101,7 @@ public class GT_GuiCoverTabLine extends GT_GuiTabLine {
 
     /**
      * Add the cover on this side of the IGregTechTileEntity to the tabs
-     * 
+     *
      * @param side
      * @param cover
      */
@@ -113,7 +113,7 @@ public class GT_GuiCoverTabLine extends GT_GuiTabLine {
 
     /**
      * Decorate the cover's tooltips according to the side it's on and on whether the tab is enabled or not
-     * 
+     *
      * @param side
      * @param cover
      * @param enabled
@@ -131,7 +131,7 @@ public class GT_GuiCoverTabLine extends GT_GuiTabLine {
 
     /**
      * Get the translated name for a side of the IGregTechTileEntity
-     * 
+     *
      * @param side
      * @return translated name for a side of the IGregTechTileEntity
      */

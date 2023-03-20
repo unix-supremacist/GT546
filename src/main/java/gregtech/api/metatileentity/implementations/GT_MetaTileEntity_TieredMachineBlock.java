@@ -1,9 +1,7 @@
 package gregtech.api.metatileentity.implementations;
 
 import static gregtech.api.enums.GT_Values.GT;
-import static gregtech.api.metatileentity.BaseTileEntity.BATTERY_SLOT_TOOLTIP;
-import static gregtech.api.metatileentity.BaseTileEntity.BATTERY_SLOT_TOOLTIP_ALT;
-import static gregtech.api.metatileentity.BaseTileEntity.TOOLTIP_DELAY;
+import static gregtech.api.metatileentity.BaseTileEntity.*;
 
 import com.gtnewhorizons.modularui.common.widget.SlotWidget;
 

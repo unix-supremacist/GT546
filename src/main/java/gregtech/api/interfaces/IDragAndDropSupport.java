@@ -22,7 +22,7 @@ public interface IDragAndDropSupport extends INEIGuiHandler {
      * Implement this to handle Drag-And-Drop behavior. This may be invoked on normal click too
      * ({@code isGhost==false}), so be careful if your slot supports both Drag-And-Drop and other behaviors e.g. fluid
      * I/O with FluidDisplay click
-     * 
+     *
      * @param gui          Current gui instance. Make sure to check if it is an instance of your GuiContainer.
      * @param mousex       X position of the mouse
      * @param mousey       Y position of the mouse

@@ -8,11 +8,7 @@ import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompressedStreamTools;
-import net.minecraft.nbt.NBTBase;
-import net.minecraft.nbt.NBTSizeTracker;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagInt;
+import net.minecraft.nbt.*;
 
 import com.google.common.io.ByteArrayDataInput;
 import io.netty.buffer.ByteBuf;
@@ -47,7 +43,7 @@ public interface ISerializableObject {
     /**
      * Read data from given parameter and return this. The data read this way is intended to be stored for short amount
      * of time over network.
-     * 
+     *
      * @param aPlayer the player who is sending this packet to server. null if it's client reading data.
      */
     // the NBT is an unfortunate piece of tech. everything uses it but its API is not as efficient as could be

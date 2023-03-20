@@ -15,7 +15,7 @@ import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_BasicMachin
 import gregtech.api.util.*;
 import gregtech.common.tileentities.automation.*;
 import gregtech.common.tileentities.boilers.*;
-import gregtech.common.tileentities.debug.*;
+import gregtech.common.tileentities.debug.GT_MetaTileEntity_AdvDebugStructureWriter;
 import gregtech.common.tileentities.generators.*;
 import gregtech.common.tileentities.machines.*;
 import gregtech.common.tileentities.machines.basic.*;

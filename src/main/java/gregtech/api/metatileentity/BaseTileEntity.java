@@ -1,11 +1,6 @@
 package gregtech.api.metatileentity;
 
-import static gregtech.api.enums.GT_Values.ALL_VALID_SIDES;
-import static gregtech.api.enums.GT_Values.COMPASS_DIRECTIONS;
-import static gregtech.api.enums.GT_Values.GT;
-import static gregtech.api.enums.GT_Values.NW;
-import static gregtech.api.enums.GT_Values.SIDE_DOWN;
-import static gregtech.api.enums.GT_Values.SIDE_UP;
+import static gregtech.api.enums.GT_Values.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -44,11 +39,7 @@ import com.gtnewhorizons.modularui.api.screen.ModularWindow;
 import com.gtnewhorizons.modularui.api.screen.UIBuildContext;
 import com.gtnewhorizons.modularui.common.internal.network.NetworkUtils;
 import com.gtnewhorizons.modularui.common.internal.wrapper.BaseSlot;
-import com.gtnewhorizons.modularui.common.widget.DrawableWidget;
-import com.gtnewhorizons.modularui.common.widget.MultiChildWidget;
-import com.gtnewhorizons.modularui.common.widget.SlotGroup;
-import com.gtnewhorizons.modularui.common.widget.SlotWidget;
-import com.gtnewhorizons.modularui.common.widget.TextWidget;
+import com.gtnewhorizons.modularui.common.widget.*;
 
 import gregtech.GT_Mod;
 import gregtech.api.enums.Dyes;

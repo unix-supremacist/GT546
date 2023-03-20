@@ -415,7 +415,7 @@ public class FluidDisplaySlotWidget extends SlotWidget {
 
     /**
      * Sets function called before {@link #executeRealClick}.
-     * 
+     *
      * @param beforeRealClick (click data, this widget) -> if allow click
      */
     public FluidDisplaySlotWidget setBeforeRealClick(
@@ -426,7 +426,7 @@ public class FluidDisplaySlotWidget extends SlotWidget {
 
     /**
      * Sets function called before {@link #executeDragAndDrop}.
-     * 
+     *
      * @param beforeDragAndDrop (click data, this widget) -> if allow click
      */
     public FluidDisplaySlotWidget setBeforeDragAndDrop(
@@ -437,7 +437,7 @@ public class FluidDisplaySlotWidget extends SlotWidget {
 
     /**
      * Sets function called before both of {@link #executeRealClick} and {@link #executeDragAndDrop}.
-     * 
+     *
      * @param beforeClick (click data, this widget) -> if allow click
      */
     public FluidDisplaySlotWidget setBeforeClick(BiFunction<ClickData, FluidDisplaySlotWidget, Boolean> beforeClick) {

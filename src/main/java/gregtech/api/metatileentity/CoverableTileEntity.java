@@ -1,16 +1,10 @@
 package gregtech.api.metatileentity;
 
-import static gregtech.api.enums.GT_Values.ALL_VALID_SIDES;
-import static gregtech.api.enums.GT_Values.E;
-import static gregtech.api.enums.GT_Values.NW;
+import static gregtech.api.enums.GT_Values.*;
 import static gregtech.api.util.GT_LanguageManager.FACES;
 import static gregtech.api.util.GT_LanguageManager.getTranslation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.IntStream;
 
 import mcp.mobius.waila.api.IWailaConfigHandler;
@@ -560,7 +554,7 @@ public abstract class CoverableTileEntity extends BaseTileEntity implements ICov
 
     /**
      * Add installed cover information, generally called from ItemBlock
-     * 
+     *
      * @param aNBT  - NBTTagCompound from the stack
      * @param aList - List to add the information to
      */

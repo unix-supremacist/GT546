@@ -1,9 +1,6 @@
 package gregtech.api.metatileentity.implementations;
 
-import static gregtech.api.enums.GT_Values.V;
-import static gregtech.api.enums.GT_Values.VN;
-import static gregtech.api.enums.GT_Values.W;
-import static gregtech.api.enums.GT_Values.ticksBetweenSounds;
+import static gregtech.api.enums.GT_Values.*;
 import static gregtech.api.objects.XSTR.XSTR_INSTANCE;
 
 import java.util.Locale;
@@ -27,7 +24,6 @@ import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import gregtech.api.enums.*;
-import gregtech.api.enums.ParticleFX;
 import gregtech.api.enums.Textures.BlockIcons.CustomIcon;
 import gregtech.api.gui.GT_Container_BasicMachine;
 import gregtech.api.gui.GT_GUIContainer_BasicMachine;

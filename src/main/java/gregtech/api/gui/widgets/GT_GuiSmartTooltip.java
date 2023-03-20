@@ -1,6 +1,6 @@
 package gregtech.api.gui.widgets;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 import gregtech.api.util.GT_TooltipDataCache.TooltipData;
 

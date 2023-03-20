@@ -59,7 +59,7 @@ public class TileIC2EnergySink extends TileEntity implements IEnergySink {
 
     /**
      * Determine the tier of this energy sink. 1 = LV, 2 = MV, 3 = HV, 4 = EV etc.
-     * 
+     *
      * @note Return Integer.MAX_VALUE to allow any voltage.
      *
      * @return tier of this energy sink

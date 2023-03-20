@@ -2,11 +2,7 @@ package gregtech.api.multitileentity;
 
 import static gregtech.GT_Mod.GT_FML_LOGGER;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;

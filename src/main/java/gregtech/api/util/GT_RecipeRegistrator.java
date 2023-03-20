@@ -620,7 +620,7 @@ public class GT_RecipeRegistrator {
 
     /**
      * Registers wiremill recipes for given material using integrated circuits.
-     * 
+     *
      * @param aMaterial    material to register
      * @param baseDuration base duration ticks for ingot -> 1x wire recipe
      * @param aEUt         EU/t for recipe If you provide a proper EU tier for recipe processing then aEUt will be
@@ -638,7 +638,7 @@ public class GT_RecipeRegistrator {
 
     /**
      * Registers wiremill recipes for given material using integrated circuits.
-     * 
+     *
      * @param aMaterial    material to register
      * @param baseDuration base duration ticks for ingot -> 1x wire recipe
      * @param aEUt         EU/t for recipe

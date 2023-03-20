@@ -2,17 +2,8 @@ package gregtech.common.tileentities.machines.multiblock;
 
 import static com.gtnewhorizon.structurelib.structure.StructureUtility.ofChain;
 import static com.gtnewhorizon.structurelib.structure.StructureUtility.transpose;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASINGS;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_FRONT_ELECTRIC_BLAST_FURNACE;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_FRONT_ELECTRIC_BLAST_FURNACE_ACTIVE;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_FRONT_ELECTRIC_BLAST_FURNACE_ACTIVE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_FRONT_ELECTRIC_BLAST_FURNACE_GLOW;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.ENERGY_IN;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.FLUID_IN;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.FLUID_OUT;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.ITEM_IN;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.ITEM_OUT;
-import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.NOTHING;
+import static gregtech.api.enums.Textures.BlockIcons.*;
+import static gregtech.api.multitileentity.multiblock.base.MultiBlockPart.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;

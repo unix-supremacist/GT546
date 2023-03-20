@@ -1,8 +1,6 @@
 package gregtech.common.items;
 
-import static gregtech.api.enums.Textures.BlockIcons.SOLARPANEL_UEV;
-import static gregtech.api.enums.Textures.BlockIcons.SOLARPANEL_UHV;
-import static gregtech.api.enums.Textures.BlockIcons.SOLARPANEL_UIV;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 import static gregtech.client.GT_TooltipHandler.Tier.*;
 import static gregtech.client.GT_TooltipHandler.registerTieredTooltip;
 

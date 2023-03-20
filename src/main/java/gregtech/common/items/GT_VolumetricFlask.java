@@ -2,9 +2,7 @@ package gregtech.common.items;
 
 import static gregtech.api.enums.GT_Values.RES_PATH_ITEM;
 import static gregtech.api.util.GT_Utility.formatNumbers;
-import static ic2.core.util.LiquidUtil.drainContainerStack;
-import static ic2.core.util.LiquidUtil.fillContainerStack;
-import static ic2.core.util.LiquidUtil.placeFluid;
+import static ic2.core.util.LiquidUtil.*;
 
 import java.util.List;
 import java.util.function.Function;
@@ -24,19 +22,10 @@ import net.minecraft.util.MovingObjectPosition.MovingObjectType;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.FakePlayer;
 import net.minecraftforge.common.util.ForgeDirection;
-import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fluids.FluidRegistry;
-import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.IFluidBlock;
-import net.minecraftforge.fluids.IFluidContainerItem;
-import net.minecraftforge.fluids.IFluidHandler;
+import net.minecraftforge.fluids.*;
 
 import com.gtnewhorizons.modularui.api.ModularUITextures;
-import com.gtnewhorizons.modularui.api.math.Alignment;
-import com.gtnewhorizons.modularui.api.math.Color;
-import com.gtnewhorizons.modularui.api.math.MathExpression;
-import com.gtnewhorizons.modularui.api.math.Pos2d;
-import com.gtnewhorizons.modularui.api.math.Size;
+import com.gtnewhorizons.modularui.api.math.*;
 import com.gtnewhorizons.modularui.api.screen.IItemWithModularUI;
 import com.gtnewhorizons.modularui.api.screen.ModularWindow;
 import com.gtnewhorizons.modularui.api.screen.UIBuildContext;

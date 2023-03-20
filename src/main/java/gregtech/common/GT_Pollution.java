@@ -372,7 +372,7 @@ public class GT_Pollution {
 
     /**
      * Get the pollution in specified chunk
-     * 
+     *
      * @param w      world to look in. can be a client world, but that limits the knowledge to what server side send us
      * @param chunkX chunk coordinate X, i.e. blockX >> 4
      * @param chunkZ chunk coordinate Z, i.e. blockZ >> 4

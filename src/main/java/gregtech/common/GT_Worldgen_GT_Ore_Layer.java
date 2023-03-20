@@ -1,8 +1,6 @@
 package gregtech.common;
 
-import static gregtech.api.enums.GT_Values.debugOrevein;
-import static gregtech.api.enums.GT_Values.oreveinPlacerOres;
-import static gregtech.api.enums.GT_Values.oreveinPlacerOresMultiplier;
+import static gregtech.api.enums.GT_Values.*;
 
 import java.util.ArrayList;
 import java.util.Random;

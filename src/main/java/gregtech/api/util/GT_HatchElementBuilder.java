@@ -225,7 +225,7 @@ public class GT_HatchElementBuilder<T> {
      * This will clear the sides set by previous call to this or {@link #allowOnly(ForgeDirection...)}
      * <p>
      * Usually mandatory for multis with multiple slices, and otherwise not needed if it contains a single slice only.
-     * 
+     *
      * @param facings disallowed direction in ABC coordinate system
      */
     public GT_HatchElementBuilder<T> disallowOnly(ForgeDirection... facings) {
@@ -241,7 +241,7 @@ public class GT_HatchElementBuilder<T> {
      * This will clear the sides set by previous call to this or {@link #disallowOnly(ForgeDirection...)}
      * <p>
      * Usually mandatory for multis with multiple slices, and otherwise not needed if it contains a single slice only.
-     * 
+     *
      * @param facings allowed direction in ABC coordinate system
      */
     public GT_HatchElementBuilder<T> allowOnly(ForgeDirection... facings) {

@@ -18,28 +18,12 @@ import net.minecraft.potion.Potion;
 import net.minecraft.world.World;
 
 import gregtech.api.GregTech_API;
-import gregtech.api.enums.Dyes;
-import gregtech.api.enums.GT_Values;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.SubTag;
-import gregtech.api.enums.TC_Aspects;
+import gregtech.api.enums.*;
 import gregtech.api.items.GT_MetaGenerated_Item_X32;
 import gregtech.api.objects.ItemData;
 import gregtech.api.render.TextureFactory;
-import gregtech.api.util.GT_FoodStat;
-import gregtech.api.util.GT_Log;
-import gregtech.api.util.GT_ModHandler;
-import gregtech.api.util.GT_OreDictUnificator;
-import gregtech.api.util.GT_Utility;
-import gregtech.common.covers.redstone.GT_Cover_AdvancedRedstoneReceiverExternal;
-import gregtech.common.covers.redstone.GT_Cover_AdvancedRedstoneReceiverInternal;
-import gregtech.common.covers.redstone.GT_Cover_AdvancedRedstoneTransmitterExternal;
-import gregtech.common.covers.redstone.GT_Cover_AdvancedRedstoneTransmitterInternal;
-import gregtech.common.covers.redstone.GT_Cover_WirelessFluidDetector;
-import gregtech.common.covers.redstone.GT_Cover_WirelessItemDetector;
-import gregtech.common.covers.redstone.GT_Cover_WirelessMaintenanceDetector;
+import gregtech.api.util.*;
+import gregtech.common.covers.redstone.*;
 import gregtech.common.items.behaviors.Behaviour_Arrow;
 
 public class GT_MetaGenerated_Item_02 extends GT_MetaGenerated_Item_X32 {

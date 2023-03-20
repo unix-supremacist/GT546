@@ -49,7 +49,7 @@ public class GT_GUIDialogSelectItem extends GT_GUIScreen {
     /**
      * Open a dialog to select an item from given list. Given callback may be called zero or more times depending on
      * user action.
-     * 
+     *
      * @param header           Header text
      * @param headerItem       ItemStack to use as Dialog icon
      * @param parent           open which GUIScreen when this dialog is closed. use null if it has no parent.

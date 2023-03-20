@@ -1,11 +1,7 @@
 package gregtech.api.multitileentity.base;
 
 import static gregtech.GT_Mod.GT_FML_LOGGER;
-import static gregtech.api.enums.GT_Values.NBT;
-import static gregtech.api.enums.GT_Values.OPOS;
-import static gregtech.api.enums.GT_Values.SIDE_WEST;
-import static gregtech.api.enums.GT_Values.VALID_SIDES;
-import static gregtech.api.enums.GT_Values.emptyIconContainerArray;
+import static gregtech.api.enums.GT_Values.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -439,7 +435,7 @@ public abstract class BaseMultiTileEntity extends CoverableTileEntity
 
     /**
      * Sets the main facing to {aSide} and update as appropriately
-     * 
+     *
      * @return Whether the facing was changed
      */
     @Override

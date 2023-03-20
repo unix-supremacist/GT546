@@ -1,14 +1,6 @@
 package gregtech.common.tileentities.generators;
 
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_ACTIVE;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_ACTIVE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_FRONT;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_FRONT_ACTIVE;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_FRONT_ACTIVE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_FRONT_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_MAGIC_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAYS_ENERGY_OUT;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import gregtech.api.GregTech_API;
 import gregtech.api.enums.ConfigCategories;

@@ -78,7 +78,7 @@ public interface ICoverable extends IRedstoneTileEntity, IHasInventory, IBasicEn
 
     /**
      * Receiving a packet with cover data.
-     * 
+     *
      * @param aPlayer the player who made the change
      */
     default void receiveCoverData(byte aCoverSide, int aCoverID, ISerializableObject aCoverData,

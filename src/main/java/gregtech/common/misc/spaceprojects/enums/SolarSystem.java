@@ -1,7 +1,8 @@
 package gregtech.common.misc.spaceprojects.enums;
 
 import static gregtech.common.misc.spaceprojects.enums.SpaceBodyType.*;
-import static gregtech.common.misc.spaceprojects.enums.StarType.*;
+import static gregtech.common.misc.spaceprojects.enums.StarType.GClass;
+import static gregtech.common.misc.spaceprojects.enums.StarType.NotAStar;
 
 import com.gtnewhorizons.modularui.api.drawable.UITexture;
 
@@ -10,7 +11,7 @@ import gregtech.common.misc.spaceprojects.interfaces.ISpaceBody;
 
 /**
  * An enum of all space bodies in the Sol Solar System. Or to be exact the more important ones
- * 
+ *
  * @author BlueWeabo
  */
 public enum SolarSystem implements ISpaceBody {

@@ -7,10 +7,7 @@ import net.minecraftforge.common.ChestGenHooks;
 
 import gregtech.GT_Mod;
 import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_Log;
-import gregtech.api.util.GT_OreDictUnificator;
 
 public class GT_BookAndLootLoader implements Runnable {
 

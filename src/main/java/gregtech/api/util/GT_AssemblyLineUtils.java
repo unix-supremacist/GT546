@@ -2,11 +2,7 @@ package gregtech.api.util;
 
 import static gregtech.GT_Mod.GT_FML_LOGGER;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 import javax.annotation.Nonnull;
 
@@ -36,7 +32,7 @@ public class GT_AssemblyLineUtils {
 
     /**
      * Checks the DataStick for deprecated/invalid recipes, updating them as required.
-     * 
+     *
      * @param aDataStick - The DataStick to process
      * @return Is this DataStick now valid with a current recipe?
      */
@@ -57,7 +53,7 @@ public class GT_AssemblyLineUtils {
 
     /**
      * Finds an Assembly Line recipe from a DataStick.
-     * 
+     *
      * @param aDataStick - The DataStick to check.
      * @return The GT_Recipe_AssemblyLine recipe contained on the DataStick, if any.
      */
@@ -67,7 +63,7 @@ public class GT_AssemblyLineUtils {
 
     /**
      * Finds an Assembly Line recipe from a DataStick.
-     * 
+     *
      * @param aDataStick         - The DataStick to check.
      * @param aReturnBuiltRecipe - Do we return a GT_Recipe_AssemblyLine built from the data on the Data Stick instead
      *                           of searching the Recipe Map?
@@ -197,7 +193,7 @@ public class GT_AssemblyLineUtils {
 
     /**
      * Finds a GT_Recipe_AssemblyLine based on the expected output ItemStack.
-     * 
+     *
      * @param aOutput - The Output of a GT_Recipe_AssemblyLine.
      * @return First found GT_Recipe_AssemblyLine with matching output.
      */
@@ -319,7 +315,7 @@ public class GT_AssemblyLineUtils {
 
     /**
      * Get the Output ItemStack from a Data Stick.
-     * 
+     *
      * @param aDataStick - The Data Stick to check.
      * @return Output ItemStack contained on the Data Stick.
      */

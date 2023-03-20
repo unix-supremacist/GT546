@@ -1,13 +1,6 @@
 package gregtech.common.tileentities.boilers;
 
-import static gregtech.api.enums.Textures.BlockIcons.BOILER_FRONT;
-import static gregtech.api.enums.Textures.BlockIcons.BOILER_FRONT_ACTIVE;
-import static gregtech.api.enums.Textures.BlockIcons.BOILER_FRONT_ACTIVE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.BOILER_FRONT_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_STEELBRICKS_BOTTOM;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_STEELBRICKS_SIDE;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_STEELBRICKS_TOP;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_PIPE;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import gregtech.GT_Mod;
 import gregtech.api.enums.SteamVariant;

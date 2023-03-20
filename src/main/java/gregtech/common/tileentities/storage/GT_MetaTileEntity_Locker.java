@@ -1,9 +1,6 @@
 package gregtech.common.tileentities.storage;
 
-import static gregtech.api.enums.Textures.BlockIcons.LOCKERS;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASINGS;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAYS_ENERGY_IN;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_LOCKER;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

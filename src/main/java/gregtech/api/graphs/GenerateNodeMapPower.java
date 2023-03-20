@@ -8,12 +8,7 @@ import net.minecraftforge.common.util.ForgeDirection;
 
 import cofh.api.energy.IEnergyReceiver;
 import gregtech.api.GregTech_API;
-import gregtech.api.graphs.consumers.ConsumerNode;
-import gregtech.api.graphs.consumers.EmptyPowerConsumer;
-import gregtech.api.graphs.consumers.NodeEnergyConnected;
-import gregtech.api.graphs.consumers.NodeEnergyReceiver;
-import gregtech.api.graphs.consumers.NodeEnergySink;
-import gregtech.api.graphs.consumers.NodeGTBaseMetaTile;
+import gregtech.api.graphs.consumers.*;
 import gregtech.api.graphs.paths.NodePath;
 import gregtech.api.graphs.paths.PowerNodePath;
 import gregtech.api.interfaces.tileentity.IEnergyConnected;

@@ -1,11 +1,6 @@
 package gregtech.api.metatileentity.implementations;
 
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_AUTOMAINTENANCE;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_AUTOMAINTENANCE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_AUTOMAINTENANCE_IDLE;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_AUTOMAINTENANCE_IDLE_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_DUCTTAPE;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAY_MAINTENANCE;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;

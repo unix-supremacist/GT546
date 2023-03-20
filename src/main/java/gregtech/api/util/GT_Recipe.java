@@ -55,7 +55,6 @@ import gnu.trove.map.hash.TByteObjectHashMap;
 import gregtech.GT_Mod;
 import gregtech.api.GregTech_API;
 import gregtech.api.enums.*;
-import gregtech.api.enums.SteamVariant;
 import gregtech.api.gui.GT_GUIColorOverride;
 import gregtech.api.gui.modularui.FallbackableSteamTexture;
 import gregtech.api.gui.modularui.GT_UITextures;
@@ -75,11 +74,7 @@ import gregtech.common.power.EUPower;
 import gregtech.common.power.Power;
 import gregtech.common.power.UnspecifiedEUPower;
 import gregtech.common.tileentities.machines.basic.GT_MetaTileEntity_Replicator;
-import gregtech.nei.FusionSpecialValueFormatter;
-import gregtech.nei.GT_NEI_DefaultHandler;
-import gregtech.nei.HeatingCoilSpecialValueFormatter;
-import gregtech.nei.INEISpecialInfoFormatter;
-import gregtech.nei.NEIRecipeInfo;
+import gregtech.nei.*;
 import ic2.core.Ic2Items;
 
 /**

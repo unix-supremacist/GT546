@@ -1,9 +1,6 @@
 package gregtech.loaders.preload;
 
-import static gregtech.api.enums.FluidState.GAS;
-import static gregtech.api.enums.FluidState.LIQUID;
-import static gregtech.api.enums.FluidState.MOLTEN;
-import static gregtech.api.enums.FluidState.SLURRY;
+import static gregtech.api.enums.FluidState.*;
 
 import java.util.Locale;
 
@@ -20,14 +17,7 @@ import cpw.mods.fml.common.event.FMLInterModComms;
 import cpw.mods.fml.common.registry.GameRegistry;
 import gregtech.GT_Mod;
 import gregtech.api.GregTech_API;
-import gregtech.api.enums.ConfigCategories;
-import gregtech.api.enums.Dyes;
-import gregtech.api.enums.GT_Values;
-import gregtech.api.enums.ItemList;
-import gregtech.api.enums.Materials;
-import gregtech.api.enums.MaterialsKevlar;
-import gregtech.api.enums.OrePrefixes;
-import gregtech.api.enums.SubTag;
+import gregtech.api.enums.*;
 import gregtech.api.fluid.GT_FluidFactory;
 import gregtech.api.items.GT_Block_LongDistancePipe;
 import gregtech.api.items.GT_BreederCell_Item;
@@ -40,17 +30,7 @@ import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
 import gregtech.api.util.GT_Utility;
 import gregtech.common.blocks.*;
-import gregtech.common.items.GT_DepletetCell_Item;
-import gregtech.common.items.GT_FluidDisplayItem;
-import gregtech.common.items.GT_IntegratedCircuit_Item;
-import gregtech.common.items.GT_MetaGenerated_Item_01;
-import gregtech.common.items.GT_MetaGenerated_Item_02;
-import gregtech.common.items.GT_MetaGenerated_Item_03;
-import gregtech.common.items.GT_MetaGenerated_Item_98;
-import gregtech.common.items.GT_MetaGenerated_Item_99;
-import gregtech.common.items.GT_MetaGenerated_Tool_01;
-import gregtech.common.items.GT_NeutronReflector_Item;
-import gregtech.common.items.GT_VolumetricFlask;
+import gregtech.common.items.*;
 
 public class GT_Loader_Item_Block_And_Fluid implements Runnable {
 

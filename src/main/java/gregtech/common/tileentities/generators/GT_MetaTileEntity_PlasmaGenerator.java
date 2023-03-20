@@ -1,9 +1,6 @@
 package gregtech.common.tileentities.generators;
 
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_FUSION_GLASS;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_FUSION_GLASS_YELLOW;
-import static gregtech.api.enums.Textures.BlockIcons.MACHINE_CASING_FUSION_GLASS_YELLOW_GLOW;
-import static gregtech.api.enums.Textures.BlockIcons.OVERLAYS_ENERGY_OUT;
+import static gregtech.api.enums.Textures.BlockIcons.*;
 
 import gregtech.api.GregTech_API;
 import gregtech.api.enums.ConfigCategories;

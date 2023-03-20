@@ -1,10 +1,7 @@
 package gregtech.loaders.oreprocessing;
 
 import static gregtech.api.enums.ConfigCategories.Recipes.harderrecipes;
-import static gregtech.api.enums.GT_Values.L;
-import static gregtech.api.enums.GT_Values.NI;
-import static gregtech.api.enums.GT_Values.RA;
-import static gregtech.api.enums.GT_Values.W;
+import static gregtech.api.enums.GT_Values.*;
 import static gregtech.api.util.GT_ModHandler.RecipeBits.BUFFERED;
 import static gregtech.api.util.GT_ModHandler.RecipeBits.DO_NOT_CHECK_FOR_COLLISIONS;
 import static gregtech.api.util.GT_Utility.calculateRecipeEU;

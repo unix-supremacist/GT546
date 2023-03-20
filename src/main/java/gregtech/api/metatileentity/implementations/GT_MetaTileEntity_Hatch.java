@@ -108,7 +108,7 @@ public abstract class GT_MetaTileEntity_Hatch extends GT_MetaTileEntity_BasicTan
 
     /**
      * Sets texture with page and index, called on add to machine list
-     * 
+     *
      * @param id (page<<7)+index of the texture
      */
     public final void updateTexture(int id) {
@@ -118,7 +118,7 @@ public abstract class GT_MetaTileEntity_Hatch extends GT_MetaTileEntity_BasicTan
 
     /**
      * Sets texture with page and index, rather unusable, but kept FFS
-     * 
+     *
      * @param page  page of texure
      * @param index index of texure
      */

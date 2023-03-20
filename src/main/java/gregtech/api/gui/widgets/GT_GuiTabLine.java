@@ -1,6 +1,6 @@
 package gregtech.api.gui.widgets;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.entity.RenderItem;

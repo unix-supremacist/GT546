@@ -7,7 +7,10 @@ import static net.minecraftforge.fluids.FluidRegistry.getFluidStack;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 
-import gregtech.api.enums.*;
+import gregtech.api.enums.GT_Values;
+import gregtech.api.enums.ItemList;
+import gregtech.api.enums.Materials;
+import gregtech.api.enums.TierEU;
 
 public class PlasmaForgeRecipes implements Runnable {
 

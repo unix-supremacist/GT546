@@ -39,11 +39,7 @@ import gregtech.api.interfaces.INetworkUpdatableItem;
 import gregtech.api.items.GT_Generic_Item;
 import gregtech.api.net.GT_Packet_UpdateItem;
 import gregtech.api.objects.XSTR;
-import gregtech.api.util.GT_Config;
-import gregtech.api.util.GT_LanguageManager;
-import gregtech.api.util.GT_Log;
-import gregtech.api.util.GT_ModHandler;
-import gregtech.api.util.GT_Utility;
+import gregtech.api.util.*;
 import gregtech.common.gui.modularui.uifactory.SelectItemUIFactory;
 
 public class GT_IntegratedCircuit_Item extends GT_Generic_Item implements INetworkUpdatableItem {

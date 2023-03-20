@@ -113,7 +113,7 @@ public class GT_MetaTileEntity_Hatch_OutputBus extends GT_MetaTileEntity_Hatch i
     /**
      * Attempt to store as many items as possible into the internal inventory of this output bus. If you need atomicity
      * you should use {@link gregtech.api.interfaces.tileentity.IHasInventory#addStackToSlot(int, ItemStack)}
-     * 
+     *
      * @param aStack Assume valid. Will be mutated. Take over the ownership. Caller should not retain a reference to
      *               this stack if the call returns true.
      * @return true if stack is fully accepted. false is stack is partially accepted or nothing is accepted

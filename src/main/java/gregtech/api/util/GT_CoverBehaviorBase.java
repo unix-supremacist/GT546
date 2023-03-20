@@ -89,7 +89,7 @@ public abstract class GT_CoverBehaviorBase<T extends ISerializableObject> {
     /**
      * Get target facade block. Does not affect rendering of **this** block. It is only used as a hint for other block
      * in case of CTM
-     * 
+     *
      * @return null if none, otherwise return facade target block
      */
     public final Block getFacadeBlock(byte aSide, int aCoverID, ISerializableObject aCoverVariable,
@@ -100,7 +100,7 @@ public abstract class GT_CoverBehaviorBase<T extends ISerializableObject> {
     /**
      * Get target facade block. Does not affect rendering of **this** block. It is only used as a hint for other block
      * in case of CTM
-     * 
+     *
      * @return 0 if none, otherwise return facade target meta
      */
     public final int getFacadeMeta(byte aSide, int aCoverID, ISerializableObject aCoverVariable,

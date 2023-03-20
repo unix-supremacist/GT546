@@ -1,7 +1,6 @@
 package gregtech.common.render.items;
 
 import static gregtech.api.enums.ItemList.*;
-import static gregtech.api.enums.ItemList.Large_Fluid_Cell_Chrome;
 
 import javax.annotation.Nullable;
 

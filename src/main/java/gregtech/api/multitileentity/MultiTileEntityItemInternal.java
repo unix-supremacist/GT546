@@ -29,12 +29,7 @@ import gregtech.api.enums.GT_Values;
 import gregtech.api.metatileentity.CoverableTileEntity;
 import gregtech.api.multitileentity.interfaces.IItemUpdatable;
 import gregtech.api.multitileentity.interfaces.IMultiTileEntity;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_AddToolTips;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_CanPlace;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_GetMaxStackSize;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_HasMultiBlockMachineRelevantData;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_IgnoreEntityCollisionWhenPlacing;
-import gregtech.api.multitileentity.interfaces.IMultiTileEntity.IMTE_OnlyPlaceableWhenSneaking;
+import gregtech.api.multitileentity.interfaces.IMultiTileEntity.*;
 
 public class MultiTileEntityItemInternal extends ItemBlock implements IFluidContainerItem, IItemUpdatable {
 
